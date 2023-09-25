@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
+}
+.portfolio span {
+  color: #9a08dd;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.profileImage {
+  width: 200px;
+}
+.profile h2 {
+  color: white;
+}
+.profile h4 {
+  color: white;
+  transform: translateY(-10px);
+}
+.biodata {
+  background: linear-gradient(#ffffff 0%, #ffffffcc 40%, #ffffff0d 100%);
+  padding-bottom: 300px;
+}
+.start-on {
+  transform: translateY(10px);
+}
+.footer {
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+.contact a {
+  color: black;
+  font-size: 20px;
+}
+
+.watermark {
+  padding-top: 30px;
+}
+.achievement {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.achievement1 {
+  padding-bottom: 30px;
+}
+.biodata {
+  padding-top: 100px;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+.biodata1 {
+  padding-bottom: 20px;
+}
+.col btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.esport-certif {
+  width: 200px;
+}
+.course-certif {
+  width: 200px;
+}
+.manpro-certif {
+  width: 200px;
+}
+.space-certif {
+  width: 200px;
+}
+.card-text {
+  display: flex;
+  justify-content: center;
+}
+.table-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.form-label {
+  margin-right: 40px;
+}
+.form-input {
+  width: 450px;
+  text-align: center;
+}
+.kirim {
+  margin-left: 530px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

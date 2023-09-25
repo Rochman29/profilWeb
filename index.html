@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style/app.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Rochman Profile</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand portfolio" href="#">PORT<span>FOLIO</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#biodata">Biodata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievement">Achievement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="profile">
+          <img
+            class="rounded-circle profileImage"
+            src="assets/img/profil1.JPG"
+            alt=""
+          />
+          <h2>Rochman Bambang Eko Saputro</h2>
+          <h4>Web Developer</h4>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,96L48,96C96,96,192,96,288,128C384,160,480,224,576,229.3C672,235,768,181,864,144C960,107,1056,85,1152,90.7C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <section id="biodata" class="biodata">
+      <h1 class="text-center biodata1">BIODATA</h1>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            Saya adalah Mahasiswa Jurusan Pendidikan Sistem Dan Teknologi Informasi yang memiliki jiwa 
+            kepemimpinan dan pengalaman berorganisasi. Saya memiliki minat tinggi pada dunia 
+            pendidikan dan teknologi informasi, serta selalu bersemangat untuk belajar hal baru. Selain pada bidang akademik, saya juga memiliki hobi renang dan bermain games online. Dan saya 
+            bercita-cita menjadi seorang programmer yang handal dan inovatif. Saya juga memiliki 
+            kepribadian INTJ yang analitis dan visioner.
+          </div>
+          <div class="col">
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-toggle="modal"
+              data-bs-target="#modalPendidikan"
+            >
+              Pendidikan
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="modalPendidikan"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Riwayat Pendidikan
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>SDN Karang Raharja 03 </p>
+                    <p>SMPN 2 Cikarang Utara </p>
+                    <p>SMAN 3 Cikarang Utara</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                  </div>
+                </div>
+              </div>
+            </div>  
+            <div
+              class="modal fade"
+              id="modalKerja"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Pengalaman Kerja
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Belum ada riwayat pekerjaan</p>
+                </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <table class="table table-bordered table-primary" >
+              <tr>
+                <th>Nama</th>
+                <td>Rochman Bambang Eko Saputro</td>
+              </tr>
+              <tr>
+                <th>NIM</th>
+                <td>2201108</td>
+              </tr>
+              <tr>
+                <th>Prodi</th>
+                <td>Pendidikan Sistem Dan Teknologi Informasi</td>
+              </tr>
+              <tr>
+                <th>Instansi</th>
+                <td>Universitas Pendidikan Indonesia</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="achievement" class="achievement">
+        <div class="container">
+            <h1 style="color:white" class="text-center achievement1">ACHIEVEMENT</h1>
+            <div class="container"><div class="row">
+                  <div class="col-sm-3"> <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">E-Sport Certificate</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Historical E-Sport</h6>
+                      <p class="card-text"><img class="esport-certif" src="/assets/img/WhatsApp Image 2023-09-25 at 20.43.31(1).jpeg" alt=""></p>
+                    <p>2021</p>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-sm-3"> <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Course Certificate</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Python For Beginners</h6>
+                      <p class="card-text"><img class="course-certif" src="/assets/img/WhatsApp Image 2023-09-25 at 20.43.31.jpeg" alt=""></p>
+                      <p>2022</p>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-sm-3"> <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Caderitation Certificate</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Masa Pengenalan Prodi PSTI</h6>
+                      <p class="card-text"><img class="manpro-certif" src="/assets/img/WhatsApp Image 2023-09-25 at 20.45.55.jpeg" alt=""></p>
+                      <p>2022</p>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-sm-3"> <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Committe Certificate</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Career Space</h6>
+                      <p class="card-text"><img class="space-certif" src="/assets/img/WhatsApp Image 2023-09-25 at 20.43.30.jpeg" alt=""></p>
+                     <p>2023</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L60,117.3C120,139,240,181,360,165.3C480,149,600,75,720,74.7C840,75,960,149,1080,176C1200,203,1320,181,1380,170.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    <section id="contact" class="footer">
+        <h1 class="text-center">CONTACT</h1>
+        <div class="container">
+            <form class="form-contact">
+              <table class="table-form">
+                <tr>
+                  <td><label class="form-label" for="Email">Email</label></td>
+                  <td><input class="form-input" type="email" placeholder="example@gmail.com" ></td>
+                </tr>
+                <tr>
+                  <td><label class="form-label" for="country">Country</label></td>
+                  <td>
+                    <select class="form-input" name="country" id="country">
+                      <option value="indonesia">Indonesia</option>
+                      <option value="malaysia">Malaysia</option>
+                      <option value="singapura">Singapura</option>
+                      <option value="thailand">Thailand</option>
+                      <option value="filiphina">Filiphina</option>
+                      <option value="vietnam">Vietnam</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label class="form-label" for="message">Message</label></td>
+                  <td><textarea name="pesan" id="pesan" cols="50" rows="7" placeholder="Write something..."></textarea></td>
+                </tr>
+              </table>
+            </form>
+            <input type="submit" value="submit" class="btn btn-danger kirim"></input>
+        </div>
+        <div class="container text-center contact">
+            <a href="https://github.com/Rochman29"><i class="fa-brands fa-github"></i></a>
+            <a href="https://instagram.com/r_omannn?igshid=NGVhN2U2NjQ0Yg=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/rochman-bambang-eko-saputro-15a08b1a0"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class="text-center watermark">&copy;2023 Rochman</p>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
